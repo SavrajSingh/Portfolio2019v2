@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Navigation Bar */
+.topNavigation{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.topNavigation a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25em;
+}
+
+.homeLink{
+    margin: 10px 20px;
+}
+
+.navLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.navLinks li{
+    margin: 10px 30px;
+}
+
+/* Main Header */
+.mainHeader{
+    background-image: url('../images/main-header.jpg');
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fee976;
+}
+
+.mainHeaderText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainHeaderText h1{
+    font-size: 3em;
+}
+
+.fa-chevron-down{
+    color: #fee976;
+    font-size: 3em;
+}
+
+/* About Section */
+.about{
+    margin-top: 5vh;
+}
+
+.aboutTextBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.aboutTextBody img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.aboutTextBody p{
+    margin: 30px 15vw;
+}
